@@ -11,13 +11,30 @@
     <meta property="og:description" content="Chicago's premier photography and video production company with 24-hour delivery." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://thelensbros.com" />
-    <meta property="og:image" content="https://d2xsxph8kpxj0f.cloudfront.net/310519663327723235/MYJHufhM7hqUNMuU6wzyQt/lensbros_tagline_logo_942acc13.jpg" />
+    <meta property="og:image" content="https://d2xsxph8kpxj0f.cloudfront.net/310519663327723235/MYJHufhM7hqUNMuU6wzyQt/lensbros_tagline_logo_f5f6bac3.webp" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href="https://thelensbros.com" />
-    <link rel="icon" type="image/png" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663327723235/MYJHufhM7hqUNMuU6wzyQt/lensbros_icon_f311cece.png" />
+    <link rel="icon" type="image/webp" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663327723235/MYJHufhM7hqUNMuU6wzyQt/lensbros_icon_6792d8fc.webp" />
+
+    <!-- Preconnect to CDN and Google Fonts for faster resource loading -->
+    <link rel="preconnect" href="https://d2xsxph8kpxj0f.cloudfront.net" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Preload LCP hero image for fastest paint -->
+    <link rel="preload" as="image" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663327723235/MYJHufhM7hqUNMuU6wzyQt/0_lzV7yKOzBzyXBAn5xPZavT_1775888263687_na1fn_L2hvbWUvdWJ1bnR1L2hlcm9faW1hZ2U_5a7e5b15.webp" fetchpriority="high" />
+
+    <!-- Load fonts with display=swap to prevent render blocking -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    </noscript>
+
+    <!-- Inline critical above-fold CSS to prevent FOUC -->
+    <style>
+      body { background: #0e0f14; color: #d9d3c7; margin: 0; }
+      #root { min-height: 100vh; }
+    </style>
   </head>
 
   <body>

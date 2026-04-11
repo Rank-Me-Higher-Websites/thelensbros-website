@@ -86,6 +86,10 @@ export default function Services() {
                         src={service.image}
                         alt={service.title}
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        width={800}
+                        height={500}
+                        loading="lazy"
+                        decoding="async"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-[oklch(0.06_0.01_270/0.4)] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                       <div className="absolute -inset-px border border-[oklch(0.65_0.2_250/0)] group-hover:border-[oklch(0.65_0.2_250/0.2)] rounded-lg transition-colors duration-500" />

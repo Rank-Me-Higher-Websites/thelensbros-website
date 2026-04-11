@@ -145,7 +145,7 @@ export default function ServiceDetail({ slug }: { slug: string }) {
         <div className="container mt-16">
           <AnimatedSection>
             <div className="relative rounded-lg overflow-hidden aspect-[21/9]">
-              <img src={data.heroImage} alt={data.title} className="w-full h-full object-cover" />
+              <img src={data.heroImage} alt={data.title} className="w-full h-full object-cover" width={1600} height={685} loading="lazy" decoding="async" />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
             </div>
           </AnimatedSection>
@@ -192,7 +192,7 @@ export default function ServiceDetail({ slug }: { slug: string }) {
             {data.galleryImages.map((img, i) => (
               <AnimatedSection key={i} delay={i * 80}>
                 <div className="group relative overflow-hidden rounded-lg aspect-square">
-                  <img src={img} alt={`${data.title} sample ${i + 1}`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                  <img src={img} alt={`${data.title} sample ${i + 1}`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" width={400} height={400} loading="lazy" decoding="async" />
                   <div className="absolute inset-0 border border-white/0 group-hover:border-[oklch(0.65_0.2_250/0.2)] rounded-lg transition-colors duration-500" />
                 </div>
               </AnimatedSection>

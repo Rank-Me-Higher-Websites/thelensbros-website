@@ -1,23 +1,25 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 
 export function useScrollAnimation(threshold = 0.15) {
   const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(entry.target);
+          observer.disconnect(); // Disconnect entirely once triggered
         }
       },
-      { threshold }
+      { threshold, rootMargin: '50px' }
     );
 
-    const el = ref.current;
-    if (el) observer.observe(el);
-    return () => { if (el) observer.unobserve(el); };
+    observer.observe(el);
+    return () => observer.disconnect();
   }, [threshold]);
 
   return { ref, isVisible };
@@ -26,18 +28,26 @@ export function useScrollAnimation(threshold = 0.15) {
 export function useParallax(speed = 0.3) {
   const ref = useRef<HTMLDivElement>(null);
   const [offset, setOffset] = useState(0);
+  const rafId = useRef<number>(0);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!ref.current) return;
+  const handleScroll = useCallback(() => {
+    if (rafId.current) return; // Skip if already queued
+    rafId.current = requestAnimationFrame(() => {
+      if (!ref.current) { rafId.current = 0; return; }
       const rect = ref.current.getBoundingClientRect();
       const scrolled = window.innerHeight - rect.top;
       setOffset(scrolled * speed);
-    };
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+      rafId.current = 0;
+    });
   }, [speed]);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (rafId.current) cancelAnimationFrame(rafId.current);
+    };
+  }, [handleScroll]);
 
   return { ref, offset };
 }

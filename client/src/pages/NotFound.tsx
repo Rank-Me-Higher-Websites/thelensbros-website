@@ -10,7 +10,7 @@ export default function NotFound() {
       <Navbar />
       <section className="flex items-center justify-center min-h-[80vh]">
         <div className="text-center">
-          <img src={BRAND.icon} alt="" className="w-20 h-20 mx-auto mb-8 opacity-30" />
+          <img src={BRAND.icon} alt="" className="w-20 h-20 mx-auto mb-8 opacity-30" width={80} height={80} loading="lazy" decoding="async" />
           <h1 className="font-display font-bold text-7xl md:text-9xl text-gradient-blue-gold mb-4">404</h1>
           <p className="text-white/40 text-lg mb-8">This page doesn't exist.</p>
           <Link

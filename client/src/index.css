@@ -172,6 +172,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Content visibility optimization for below-fold sections */
+.content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

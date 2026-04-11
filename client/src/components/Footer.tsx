@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-5">
-              <img src={BRAND.icon} alt="Lens Bros" className="h-10 w-10 object-contain" />
+              <img src={BRAND.icon} alt="Lens Bros" className="h-10 w-10 object-contain" width={40} height={40} loading="lazy" decoding="async" />
               <span className="font-display font-bold text-xl text-white tracking-tight">
                 LENS BR<span className="text-gradient-blue-gold">O</span>S
               </span>

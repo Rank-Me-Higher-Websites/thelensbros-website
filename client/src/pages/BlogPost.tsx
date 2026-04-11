@@ -156,7 +156,7 @@ export default function BlogPost({ slug }: { slug: string }) {
         <div className="container max-w-5xl mx-auto px-4">
           <AnimatedSection>
             <div className="relative rounded-lg overflow-hidden aspect-[21/9]">
-              <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
+              <img src={post.image} alt={post.title} className="w-full h-full object-cover" width={1200} height={514} loading="lazy" decoding="async" />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-50" />
             </div>
           </AnimatedSection>
@@ -181,7 +181,7 @@ export default function BlogPost({ slug }: { slug: string }) {
               </div>
               {section.image && (
                 <div className="mt-8 rounded-lg overflow-hidden">
-                  <img src={section.image} alt={section.heading} className="w-full aspect-[16/9] object-cover" />
+                  <img src={section.image} alt={section.heading} className="w-full aspect-[16/9] object-cover" width={800} height={450} loading="lazy" decoding="async" />
                 </div>
               )}
             </AnimatedSection>

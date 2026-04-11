@@ -53,6 +53,8 @@ export default function Navbar() {
             src={BRAND.icon}
             alt="Lens Bros"
             className="h-9 w-9 md:h-10 md:w-10 object-contain"
+            width={40}
+            height={40}
           />
           <span className="font-display font-bold text-lg md:text-xl tracking-tight text-white">
             LENS BR<span className="text-gradient-blue-gold">O</span>S

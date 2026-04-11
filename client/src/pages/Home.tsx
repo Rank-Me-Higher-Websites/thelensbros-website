@@ -128,6 +128,10 @@ export default function Home() {
             src={IMAGES.hero}
             alt="Professional photographer with Chicago skyline"
             className="w-full h-[120%] object-cover object-center"
+            width={1600}
+            height={893}
+            fetchPriority="high"
+            decoding="sync"
           />
           {/* Dark overlay gradient */}
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.06_0.01_270/0.92)] via-[oklch(0.06_0.01_270/0.7)] to-[oklch(0.06_0.01_270/0.5)]" />
@@ -235,6 +239,10 @@ export default function Home() {
                     src={service.image}
                     alt={service.title}
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    width={800}
+                    height={600}
+                    loading="lazy"
+                    decoding="async"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[oklch(0.06_0.01_270/0.95)] via-[oklch(0.06_0.01_270/0.3)] to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">
@@ -256,7 +264,7 @@ export default function Home() {
       </section>
 
       {/* ═══════════════ WHY LENS BROS ═══════════════ */}
-      <section className="relative py-24 md:py-32 overflow-hidden">
+      <section className="relative py-24 md:py-32 overflow-hidden content-auto">
         {/* Background glow */}
         <div className="absolute top-1/2 left-0 w-[600px] h-[600px] bg-[oklch(0.65_0.2_250/0.04)] rounded-full blur-[150px] -translate-y-1/2 pointer-events-none" />
 
@@ -300,6 +308,10 @@ export default function Home() {
                   src={IMAGES.realEstateKitchen}
                   alt="Professional real estate photography"
                   className="rounded-lg w-full aspect-[4/3] object-cover"
+                  width={800}
+                  height={600}
+                  loading="lazy"
+                  decoding="async"
                 />
                 {/* Floating badge */}
                 <div className="absolute -bottom-6 -left-6 bg-[oklch(0.1_0.015_270/0.95)] backdrop-blur-xl border border-white/10 rounded-lg p-5 shadow-2xl">
@@ -322,7 +334,7 @@ export default function Home() {
       </section>
 
       {/* ═══════════════ PORTFOLIO PREVIEW ═══════════════ */}
-      <section className="relative py-24 md:py-32 bg-[oklch(0.06_0.01_270)]">
+      <section className="relative py-24 md:py-32 bg-[oklch(0.06_0.01_270)] content-auto">
         <div className="container relative z-10">
           <AnimatedSection>
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
@@ -349,6 +361,10 @@ export default function Home() {
                     src={item.image}
                     alt={item.category}
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    width={600}
+                    height={600}
+                    loading="lazy"
+                    decoding="async"
                   />
                   <div className="absolute inset-0 bg-[oklch(0.06_0.01_270/0)] group-hover:bg-[oklch(0.06_0.01_270/0.6)] transition-all duration-500" />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -364,7 +380,7 @@ export default function Home() {
       </section>
 
       {/* ═══════════════ TESTIMONIALS ═══════════════ */}
-      <section className="relative py-24 md:py-32 overflow-hidden bg-grain">
+      <section className="relative py-24 md:py-32 overflow-hidden bg-grain content-auto">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[oklch(0.75_0.14_80/0.04)] rounded-full blur-[150px] pointer-events-none" />
 
         <div className="container relative z-10">
@@ -397,13 +413,13 @@ export default function Home() {
       </section>
 
       {/* ═══════════════ CTA ═══════════════ */}
-      <section className="relative py-24 md:py-32 overflow-hidden">
+      <section className="relative py-24 md:py-32 overflow-hidden content-auto">
         <div className="absolute inset-0 bg-gradient-to-br from-[oklch(0.65_0.2_250/0.08)] via-transparent to-[oklch(0.75_0.14_80/0.06)]" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[oklch(0.65_0.2_250/0.05)] rounded-full blur-[200px] pointer-events-none" />
 
         <div className="container relative z-10 text-center">
           <AnimatedSection>
-            <img src={BRAND.icon} alt="" className="w-16 h-16 mx-auto mb-8 opacity-60" />
+            <img src={BRAND.icon} alt="" className="w-16 h-16 mx-auto mb-8 opacity-60" width={64} height={64} loading="lazy" decoding="async" />
             <h2 className="font-display font-bold text-4xl md:text-6xl text-white mb-6 max-w-3xl mx-auto leading-tight">
               Ready to Create Something <span className="text-gradient-blue-gold">Extraordinary</span>?
             </h2>

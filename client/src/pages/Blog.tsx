@@ -100,6 +100,10 @@ export default function Blog() {
                         src={post.image}
                         alt={post.title}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        width={640}
+                        height={400}
+                        loading="lazy"
+                        decoding="async"
                       />
                       <div className="absolute inset-0 border border-white/0 group-hover:border-[oklch(0.65_0.2_250/0.2)] rounded-lg transition-colors duration-500" />
                       <div className="absolute top-4 left-4">
