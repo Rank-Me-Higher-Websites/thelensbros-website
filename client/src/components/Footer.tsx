@@ -13,11 +13,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-3 mb-5">
-              <img src={BRAND.iconSmall} alt="The Lens Bros" className="h-10 w-10 object-contain" width={40} height={40} loading="lazy" decoding="async" />
-              <span className="font-display font-bold text-xl text-white tracking-tight">
-                THE LENS BR<span className="text-gradient-blue-gold">O</span>S
-              </span>
+            <Link href="/" className="block mb-5">
+              <img src={BRAND.logoTagline} alt="The Lens Bros" className="h-10 w-auto object-contain" width={200} height={40} loading="lazy" decoding="async" />
             </Link>
             <p className="text-white/40 text-sm leading-relaxed mb-6 max-w-xs">
               Shot Today. Delivered Tomorrow. Chicago's premier photography and video production company.

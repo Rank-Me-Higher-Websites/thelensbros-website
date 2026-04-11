@@ -49,17 +49,14 @@ export default function Navbar() {
       {/* Full-size container: h-16 mobile, h-20 desktop */}
       <div className="container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 shrink-0">
+        <Link href="/" className="flex items-center gap-2 shrink-0">
           <img
-            src={BRAND.iconSmall}
-            alt="The Lens Bros"
-            className="h-9 w-9 md:h-10 md:w-10 object-contain"
-            width={40}
-            height={40}
+            src={BRAND.logoTagline}
+            alt="The Lens Bros — Shot Today. Delivered Tomorrow."
+            className="h-10 md:h-12 w-auto object-contain"
+            width={240}
+            height={48}
           />
-          <span className="font-display font-bold text-lg md:text-xl tracking-tight text-white">
-            THE LENS BR<span className="text-gradient-blue-gold">O</span>S
-          </span>
         </Link>
 
         {/* Desktop Nav */}

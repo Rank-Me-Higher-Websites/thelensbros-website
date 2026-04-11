@@ -5,9 +5,13 @@
 const CDN = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663327723235/MYJHufhM7hqUNMuU6wzyQt';
 
 export const BRAND = {
-  logoTagline: `${CDN}/lensbros_tagline_logo_f5f6bac3.webp`,
-  icon: `${CDN}/lensbros_icon_6792d8fc.webp`,
-  iconSmall: `${CDN}/lensbros_icon_80_f6ec7afd.webp`, // 80x80 for nav/footer
+  logoTagline: `${CDN}/the_lens_bros_tagline_logo_f6ca41ee.png`,
+  icon: `${CDN}/the_lens_bros_logo_square_6331b2bc.png`,
+  iconSmall: `${CDN}/the_lens_bros_logo_square_6331b2bc.png`,
+};
+
+export const VIDEO = {
+  heroVideo: `${CDN}/real_estate_hero_24s_9b2ae548.mp4`,
 };
 
 export const IMAGES = {

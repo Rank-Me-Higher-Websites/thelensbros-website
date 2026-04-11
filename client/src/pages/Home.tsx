@@ -1,7 +1,7 @@
 // Cinematic Noir — Home Page
 // Deep blacks, blue/gold selective luminance, futuristic AI interactive elements
 import { Link } from 'wouter';
-import { IMAGES, BRAND } from '@/lib/images';
+import { IMAGES, BRAND, VIDEO } from '@/lib/images';
 import AnimatedSection from '@/components/AnimatedSection';
 import SectionLabel from '@/components/SectionLabel';
 import Navbar from '@/components/Navbar';
@@ -113,8 +113,8 @@ const testimonials = [
   },
 ];
 
-// Placeholder video URL — replace with actual video when ready
-const HERO_VIDEO_URL = '';
+// Hero video — real estate cinematic background
+const HERO_VIDEO_URL = VIDEO.heroVideo;
 
 export default function Home() {
   const { ref: heroParallax, offset: heroOffset } = useParallax(0.15);
