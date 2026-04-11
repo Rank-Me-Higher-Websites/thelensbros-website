@@ -8,7 +8,7 @@ import SEOHead from '@/components/SEOHead';
 const sections = [
   {
     title: '1. Services',
-    content: `Lens Bros provides professional photography and video production services, including but not limited to real estate photography, event photography, wedding photography, portrait sessions, and video production. All services are subject to availability and scheduling confirmation.\n\nOur signature 24-hour delivery guarantee applies to standard photography packages. Complex video production projects, wedding albums, and custom editing requests may require additional processing time, which will be communicated at the time of booking.`,
+    content: `The Lens Bros provides professional photography and video production services, including but not limited to real estate photography, event photography, wedding photography, portrait sessions, and video production. All services are subject to availability and scheduling confirmation.\n\nOur signature 24-hour delivery guarantee applies to standard photography packages. Complex video production projects, wedding albums, and custom editing requests may require additional processing time, which will be communicated at the time of booking.`,
   },
   {
     title: '2. Booking and Payment',
@@ -20,7 +20,7 @@ const sections = [
   },
   {
     title: '4. Intellectual Property and Usage Rights',
-    content: `Upon full payment, clients receive a non-exclusive license to use the delivered photographs and videos for personal or commercial purposes as specified in their service agreement. Lens Bros retains copyright ownership of all images and videos produced.\n\nLens Bros reserves the right to use photographs and videos from client sessions for portfolio, marketing, and promotional purposes unless a written exclusion agreement is signed prior to the shoot. Client requests for exclusivity must be made in writing before the session.`,
+    content: `Upon full payment, clients receive a non-exclusive license to use the delivered photographs and videos for personal or commercial purposes as specified in their service agreement. The Lens Bros retains copyright ownership of all images and videos produced.\n\nLens Bros reserves the right to use photographs and videos from client sessions for portfolio, marketing, and promotional purposes unless a written exclusion agreement is signed prior to the shoot. Client requests for exclusivity must be made in writing before the session.`,
   },
   {
     title: '5. Delivery and Revisions',
@@ -28,7 +28,7 @@ const sections = [
   },
   {
     title: '6. Limitation of Liability',
-    content: `While Lens Bros takes every precaution to ensure the safety and integrity of all equipment and data, we are not liable for circumstances beyond our control, including but not limited to equipment malfunction, extreme weather conditions, venue restrictions, or acts of God.\n\nIn the unlikely event of a total loss of images due to equipment failure, our liability is limited to a full refund of the amount paid for the affected session. We maintain backup systems and redundant storage to minimize this risk.`,
+    content: `While The Lens Bros takes every precaution to ensure the safety and integrity of all equipment and data, we are not liable for circumstances beyond our control, including but not limited to equipment malfunction, extreme weather conditions, venue restrictions, or acts of God.\n\nIn the unlikely event of a total loss of images due to equipment failure, our liability is limited to a full refund of the amount paid for the affected session. We maintain backup systems and redundant storage to minimize this risk.`,
   },
   {
     title: '7. Privacy',
@@ -36,7 +36,7 @@ const sections = [
   },
   {
     title: '8. Changes to Terms',
-    content: `Lens Bros reserves the right to update these Terms and Conditions at any time. Changes will be posted on this page with an updated effective date. Continued use of our services after changes are posted constitutes acceptance of the revised terms.`,
+    content: `The Lens Bros reserves the right to update these Terms and Conditions at any time. Changes will be posted on this page with an updated effective date. Continued use of our services after changes are posted constitutes acceptance of the revised terms.`,
   },
 ];
 
@@ -44,8 +44,8 @@ export default function Terms() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Terms & Conditions | Lens Bros"
-        description="Terms and conditions for Lens Bros photography and video production services. Booking, payment, cancellation, and usage rights policies."
+        title="Terms & Conditions | The Lens Bros"
+        description="Terms and conditions for The Lens Bros photography and video production services. Booking, payment, cancellation, and usage rights policies."
         canonical="https://thelensbros.com/terms"
       />
       <Navbar />
@@ -64,7 +64,7 @@ export default function Terms() {
 
           <AnimatedSection>
             <p className="text-white/50 text-base leading-[1.85] mb-12">
-              Welcome to Lens Bros. By booking our services or using our website (thelensbros.com), you agree to the following terms and conditions. Please read them carefully before engaging our services.
+              Welcome to The Lens Bros. By booking our services or using our website (thelensbros.com), you agree to the following terms and conditions. Please read them carefully before engaging our services.
             </p>
           </AnimatedSection>
 

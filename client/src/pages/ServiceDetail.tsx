@@ -33,7 +33,7 @@ const serviceData: Record<string, ServiceData> = {
       { title: 'Virtual Staging', desc: 'Transform empty rooms into beautifully furnished spaces.' },
     ],
     process: ['Schedule your shoot online', 'Our team arrives with professional equipment', 'Full property coverage in 1-2 hours', 'Edited photos delivered within 24 hours'],
-    seoTitle: 'Real Estate Photography Chicago | Lens Bros',
+    seoTitle: 'Real Estate Photography Chicago | The Lens Bros',
   },
   events: {
     title: 'Event Photography',
@@ -48,7 +48,7 @@ const serviceData: Record<string, ServiceData> = {
       { title: 'Festival Coverage', desc: 'High-energy photography for concerts and festivals.' },
     ],
     process: ['Discuss your event details and shot list', 'We assign the right team size for your event', 'Discreet, professional coverage throughout', 'Curated gallery delivered within 24 hours'],
-    seoTitle: 'Event Photography Chicago | Lens Bros',
+    seoTitle: 'Event Photography Chicago | The Lens Bros',
   },
   weddings: {
     title: 'Wedding Photography',
@@ -63,7 +63,7 @@ const serviceData: Record<string, ServiceData> = {
       { title: 'Custom Albums', desc: 'Professionally designed wedding albums delivered to your door.' },
     ],
     process: ['Free consultation to understand your vision', 'Engagement session to build rapport', 'Full wedding day coverage with our team', 'Edited gallery + album within 24-48 hours'],
-    seoTitle: 'Wedding Photography Chicago | Lens Bros',
+    seoTitle: 'Wedding Photography Chicago | The Lens Bros',
   },
   photo: {
     title: 'Photo Sessions',
@@ -78,7 +78,7 @@ const serviceData: Record<string, ServiceData> = {
       { title: 'Studio Sessions', desc: 'Controlled lighting and backdrops for perfect results.' },
     ],
     process: ['Choose your session type and location', 'Pre-shoot consultation on styling and goals', 'Professional directed photo session', 'Retouched images delivered within 24 hours'],
-    seoTitle: 'Professional Photo Sessions Chicago | Lens Bros',
+    seoTitle: 'Professional Photo Sessions Chicago | The Lens Bros',
   },
   video: {
     title: 'Video Production',
@@ -93,7 +93,7 @@ const serviceData: Record<string, ServiceData> = {
       { title: 'Social Media Content', desc: 'Optimized video content for every platform.' },
     ],
     process: ['Creative brief and concept development', 'Pre-production planning and scheduling', 'Professional shoot with cinema-grade equipment', 'Edited video delivered within 24-48 hours'],
-    seoTitle: 'Video Production Chicago | Lens Bros',
+    seoTitle: 'Video Production Chicago | The Lens Bros',
   },
 };
 

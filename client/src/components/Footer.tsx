@@ -14,9 +14,9 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-5">
-              <img src={BRAND.icon} alt="Lens Bros" className="h-10 w-10 object-contain" width={40} height={40} loading="lazy" decoding="async" />
+              <img src={BRAND.iconSmall} alt="The Lens Bros" className="h-10 w-10 object-contain" width={40} height={40} loading="lazy" decoding="async" />
               <span className="font-display font-bold text-xl text-white tracking-tight">
-                LENS BR<span className="text-gradient-blue-gold">O</span>S
+                THE LENS BR<span className="text-gradient-blue-gold">O</span>S
               </span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed mb-6 max-w-xs">
@@ -97,7 +97,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/25 text-xs">
-            &copy; {new Date().getFullYear()} Lens Bros. All rights reserved.
+            &copy; {new Date().getFullYear()} The Lens Bros. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link href="/terms" className="text-white/25 hover:text-white/50 text-xs transition-colors">Terms</Link>

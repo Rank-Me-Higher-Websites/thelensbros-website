@@ -30,7 +30,7 @@ export const blogPosts: BlogPost[] = [
     date: 'April 8, 2026',
     readTime: '8 min read',
     category: 'Real Estate',
-    metaTitle: 'Best Real Estate Photographer Chicago 2026 | Lens Bros',
+    metaTitle: 'Best Real Estate Photographer Chicago 2026 | The Lens Bros',
     metaDescription: 'Find the best real estate photographer in Chicago. Learn about HDR photography, drone aerials, twilight shoots, and 24-hour delivery for competitive property listings.',
     keywords: ['real estate photographer Chicago', 'property photography Chicago', 'best real estate photography Chicago 2026', 'HDR real estate photos'],
   },
@@ -42,7 +42,7 @@ export const blogPosts: BlogPost[] = [
     date: 'March 25, 2026',
     readTime: '12 min read',
     category: 'Weddings',
-    metaTitle: 'Top Chicago Wedding Venues for Photography 2026 | Lens Bros',
+    metaTitle: 'Top Chicago Wedding Venues for Photography 2026 | The Lens Bros',
     metaDescription: 'Discover the top 10 Chicago wedding venues for stunning photography. Rooftop ceremonies, historic ballrooms, and lakefront settings with expert photography tips.',
     keywords: ['Chicago wedding venues', 'wedding photography Chicago', 'best wedding venues Chicago 2026', 'Chicago wedding photographer'],
   },
@@ -54,7 +54,7 @@ export const blogPosts: BlogPost[] = [
     date: 'March 12, 2026',
     readTime: '10 min read',
     category: 'Events',
-    metaTitle: 'Corporate Event Photography Chicago Guide | Lens Bros',
+    metaTitle: 'Corporate Event Photography Chicago Guide | The Lens Bros',
     metaDescription: 'Complete guide to corporate event photography in Chicago. Shot lists, venue lighting tips, photographer selection, and maximizing your event content ROI.',
     keywords: ['corporate event photography Chicago', 'event photographer Chicago', 'Chicago corporate events', 'event photography guide'],
   },
@@ -64,8 +64,8 @@ export default function Blog() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Photography Blog | Lens Bros Chicago"
-        description="Expert photography tips, Chicago venue guides, and industry insights from the Lens Bros team. Real estate, wedding, and event photography advice."
+        title="Photography Blog | The Lens Bros Chicago"
+        description="Expert photography tips, Chicago venue guides, and industry insights from the The Lens Bros team. Real estate, wedding, and event photography advice."
         canonical="https://thelensbros.com/blog"
         keywords="photography blog Chicago, real estate photography tips, wedding photography guide, event photography advice"
       />
@@ -81,7 +81,7 @@ export default function Blog() {
               Insights & <span className="text-gradient-blue-gold">Inspiration</span>
             </h1>
             <p className="text-white/40 text-lg max-w-xl">
-              Expert tips, industry insights, and behind-the-scenes stories from the Lens Bros team in Chicago.
+              Expert tips, industry insights, and behind-the-scenes stories from the The Lens Bros team in Chicago.
             </p>
           </AnimatedSection>
         </div>

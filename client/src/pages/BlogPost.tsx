@@ -24,7 +24,7 @@ const postContent: Record<string, { sections: { heading: string; content: string
       },
       {
         heading: 'The 24-Hour Delivery Advantage',
-        content: `In a market where properties can receive multiple offers within days of listing, turnaround time matters enormously. The best real estate photographers in Chicago now offer 24-hour delivery — meaning your listing can go live with professional photos the day after the shoot.\n\nAt Lens Bros, we've built our entire workflow around this promise. Our editing pipeline uses a combination of professional colorists and optimized batch processing to deliver gallery-ready images within 24 hours of every shoot, without sacrificing quality.\n\nThis speed advantage means your listing hits the MLS while buyer interest is at its peak, giving you a competitive edge that translates directly to faster sales and higher offers.`,
+        content: `In a market where properties can receive multiple offers within days of listing, turnaround time matters enormously. The best real estate photographers in Chicago now offer 24-hour delivery — meaning your listing can go live with professional photos the day after the shoot.\n\nAt The Lens Bros, we've built our entire workflow around this promise. Our editing pipeline uses a combination of professional colorists and optimized batch processing to deliver gallery-ready images within 24 hours of every shoot, without sacrificing quality.\n\nThis speed advantage means your listing hits the MLS while buyer interest is at its peak, giving you a competitive edge that translates directly to faster sales and higher offers.`,
       },
       {
         heading: 'Pricing and Packages: What to Expect in 2026',
@@ -33,7 +33,7 @@ const postContent: Record<string, { sections: { heading: string; content: string
       },
       {
         heading: 'Making Your Decision',
-        content: `Choosing the right real estate photographer in Chicago comes down to three things: portfolio quality, turnaround time, and professionalism. Review their recent work (specifically Chicago properties), ask about their delivery timeline, and check reviews from other agents and brokers.\n\nAt Lens Bros, we combine all three — stunning HDR photography, drone aerials, twilight shoots, and our signature 24-hour delivery guarantee. If you're ready to elevate your listings, we'd love to show you what we can do.`,
+        content: `Choosing the right real estate photographer in Chicago comes down to three things: portfolio quality, turnaround time, and professionalism. Review their recent work (specifically Chicago properties), ask about their delivery timeline, and check reviews from other agents and brokers.\n\nAt The Lens Bros, we combine all three — stunning HDR photography, drone aerials, twilight shoots, and our signature 24-hour delivery guarantee. If you're ready to elevate your listings, we'd love to show you what we can do.`,
       },
     ],
   },
@@ -59,7 +59,7 @@ const postContent: Record<string, { sections: { heading: string; content: string
       },
       {
         heading: 'Photography Tips for Chicago Wedding Venues',
-        content: `Regardless of which venue you choose, here are essential tips for ensuring your wedding photos are extraordinary:\n\n**Schedule a venue walkthrough with your photographer** — Every venue has hidden photo spots, tricky lighting situations, and optimal times of day. A pre-wedding walkthrough ensures your photographer has a plan for every moment.\n\n**Consider the light** — Chicago's lakefront venues face east, meaning morning ceremonies get soft, warm light while afternoon ceremonies may deal with harsh direct sun. Your photographer should advise on timing.\n\n**Plan for weather** — Chicago weather is unpredictable. The best wedding photographers have backup plans for rain, wind, and unexpected clouds. At Lens Bros, we always scout indoor alternatives at every venue.\n\n**Book early** — Top Chicago wedding photographers book 12–18 months in advance, especially for peak season (June–October). If you've found a photographer whose style you love, don't wait.`,
+        content: `Regardless of which venue you choose, here are essential tips for ensuring your wedding photos are extraordinary:\n\n**Schedule a venue walkthrough with your photographer** — Every venue has hidden photo spots, tricky lighting situations, and optimal times of day. A pre-wedding walkthrough ensures your photographer has a plan for every moment.\n\n**Consider the light** — Chicago's lakefront venues face east, meaning morning ceremonies get soft, warm light while afternoon ceremonies may deal with harsh direct sun. Your photographer should advise on timing.\n\n**Plan for weather** — Chicago weather is unpredictable. The best wedding photographers have backup plans for rain, wind, and unexpected clouds. At The Lens Bros, we always scout indoor alternatives at every venue.\n\n**Book early** — Top Chicago wedding photographers book 12–18 months in advance, especially for peak season (June–October). If you've found a photographer whose style you love, don't wait.`,
       },
     ],
   },
@@ -71,7 +71,7 @@ const postContent: Record<string, { sections: { heading: string; content: string
       },
       {
         heading: 'Choosing the Right Event Photographer in Chicago',
-        content: `Not all photographers are suited for event work. Corporate event photography requires a unique combination of technical skill, social awareness, and editorial instinct. Here's what to look for:\n\n**Experience with similar events** — A wedding photographer and a corporate event photographer require different skill sets. Look for a photographer who has specific experience with your type of event, whether it's a 50-person dinner or a 5,000-person conference.\n\n**Equipment for challenging conditions** — Chicago event venues range from dimly lit ballrooms to brightly lit convention centers. Your photographer should have professional-grade cameras that perform well in low light, along with portable lighting solutions.\n\n**Turnaround time** — For corporate events, speed matters. You want to share highlights on social media during the event and have a full gallery ready for your marketing team within 24 hours. At Lens Bros, our 24-hour delivery guarantee means your event content is ready to deploy the next morning.`,
+        content: `Not all photographers are suited for event work. Corporate event photography requires a unique combination of technical skill, social awareness, and editorial instinct. Here's what to look for:\n\n**Experience with similar events** — A wedding photographer and a corporate event photographer require different skill sets. Look for a photographer who has specific experience with your type of event, whether it's a 50-person dinner or a 5,000-person conference.\n\n**Equipment for challenging conditions** — Chicago event venues range from dimly lit ballrooms to brightly lit convention centers. Your photographer should have professional-grade cameras that perform well in low light, along with portable lighting solutions.\n\n**Turnaround time** — For corporate events, speed matters. You want to share highlights on social media during the event and have a full gallery ready for your marketing team within 24 hours. At The Lens Bros, our 24-hour delivery guarantee means your event content is ready to deploy the next morning.`,
         image: IMAGES.chicagoEvent,
       },
       {
@@ -85,7 +85,7 @@ const postContent: Record<string, { sections: { heading: string; content: string
       },
       {
         heading: 'Maximizing Your Event Photography ROI',
-        content: `To get the most value from your corporate event photography investment, plan your content strategy before the event:\n\n**Real-time social media** — Arrange for your photographer to share select images during the event for immediate social media posting. This drives engagement and FOMO for future events.\n\n**Post-event email campaign** — A curated gallery of event highlights makes for compelling email content. Send within 48 hours while the event is still fresh in attendees' minds.\n\n**Website and blog content** — Event photos refresh your website and provide material for blog posts and case studies. A single event can fuel content for months.\n\n**Internal communications** — Share event photos with your team to build company culture and recognize employee contributions.\n\nAt Lens Bros, we understand that corporate event photography isn't just about capturing moments — it's about creating assets that drive business results. Our 24-hour delivery ensures you can execute your content strategy without delay.`,
+        content: `To get the most value from your corporate event photography investment, plan your content strategy before the event:\n\n**Real-time social media** — Arrange for your photographer to share select images during the event for immediate social media posting. This drives engagement and FOMO for future events.\n\n**Post-event email campaign** — A curated gallery of event highlights makes for compelling email content. Send within 48 hours while the event is still fresh in attendees' minds.\n\n**Website and blog content** — Event photos refresh your website and provide material for blog posts and case studies. A single event can fuel content for months.\n\n**Internal communications** — Share event photos with your team to build company culture and recognize employee contributions.\n\nAt The Lens Bros, we understand that corporate event photography isn't just about capturing moments — it's about creating assets that drive business results. Our 24-hour delivery ensures you can execute your content strategy without delay.`,
       },
     ],
   },
@@ -190,7 +190,7 @@ export default function BlogPost({ slug }: { slug: string }) {
           {/* Author / CTA */}
           <AnimatedSection>
             <div className="mt-16 p-8 bg-gradient-to-br from-[oklch(0.65_0.2_250/0.08)] to-[oklch(0.75_0.14_80/0.06)] border border-[oklch(0.65_0.2_250/0.15)] rounded-lg">
-              <h3 className="font-display font-bold text-xl text-white mb-3">Ready to Work with Lens Bros?</h3>
+              <h3 className="font-display font-bold text-xl text-white mb-3">Ready to Work with The Lens Bros?</h3>
               <p className="text-white/40 text-sm leading-relaxed mb-6">
                 Whether you need real estate photography, wedding coverage, or corporate event documentation, our team delivers professional results within 24 hours. Based in Chicago, expanding to Miami.
               </p>

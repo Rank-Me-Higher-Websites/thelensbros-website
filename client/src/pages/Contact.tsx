@@ -27,8 +27,8 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Contact Lens Bros | Book a Photography Session in Chicago"
-        description="Get in touch with Lens Bros for professional photography and video services in Chicago. Book a shoot, request a quote, or ask about our 24-hour delivery guarantee."
+        title="Contact The Lens Bros | Book a Photography Session in Chicago"
+        description="Get in touch with The Lens Bros for professional photography and video services in Chicago. Book a shoot, request a quote, or ask about our 24-hour delivery guarantee."
         canonical="https://thelensbros.com/contact"
         keywords="contact photographer Chicago, book photography session, Chicago photography quote"
       />

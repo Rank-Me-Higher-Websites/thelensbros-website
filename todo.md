@@ -1,28 +1,27 @@
-# Performance Optimization TODO
+# The Lens Bros Website Updates
 
-## Baseline: Mobile 54, LCP 47.2s, CLS 0, TBT 140ms
+## Rebrand to "The Lens Bros"
+- [ ] Update Navbar logo text
+- [ ] Update Footer brand text
+- [ ] Update all page content references
+- [ ] Update SEO meta tags and index.html title
 
-### Critical Issues
-- [ ] Images are massive (5-7.5 MB each!) — total payload ~92 MB. Need to resize/compress all CDN images
-- [ ] Minify JavaScript — 1,305 KiB savings possible
-- [ ] Reduce unused JavaScript — 991 KiB savings (react-dom, radix, sonner, lucide)
-- [ ] Render blocking resources — 1,350ms savings
-- [ ] No cache headers on images — 88,653 KiB could be cached
+## Navbar — Make Thinner
+- [ ] Reduce desktop height/padding
 
-### Image Optimizations
-- [ ] Add explicit width/height to all img tags to prevent CLS
-- [ ] Add loading="lazy" to all below-fold images
-- [ ] Add fetchpriority="high" to hero/LCP image
-- [ ] Preload the hero LCP image in HTML head
-- [ ] Use smaller image sizes — resize originals or use CDN transforms
+## Futuristic AI Animated Elements
+- [ ] Particle canvas background on hero
+- [ ] Floating orb/glow elements
+- [ ] Animated gradient mesh backgrounds
+- [ ] Enhanced glowing hover effects on cards
+- [ ] Smooth scroll-triggered animations
 
-### JS/CSS Optimizations
-- [ ] Code-split routes with React.lazy + Suspense
-- [ ] Remove unused icon imports from lucide-react (tree-shake)
-- [ ] Defer Google Fonts loading with display=swap
-- [ ] Add font preconnect hints
+## Video Hero Background
+- [ ] Set up autoplay/loop/muted video player
+- [ ] Dark overlay for text readability
+- [ ] Placeholder video URL
 
-### Build Optimizations
-- [ ] Configure Vite for optimal chunking and minification
-- [ ] Enable CSS minification
-- [ ] Add compression plugin for gzip/brotli
+## Speed Optimizations
+- [ ] Use iconSmall in Footer
+- [ ] Responsive images in srcSet
+- [ ] Production build and push to GitHub

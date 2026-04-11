@@ -50,7 +50,7 @@ export default function Services() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Photography & Video Services | Lens Bros Chicago"
+        title="Photography & Video Services | The Lens Bros Chicago"
         description="Professional photography and video services in Chicago. Real estate, events, weddings, portraits, and video production with 24-hour delivery."
         canonical="https://thelensbros.com/services"
         keywords="photography services Chicago, video production Chicago, real estate photography, event photographer, wedding photographer"

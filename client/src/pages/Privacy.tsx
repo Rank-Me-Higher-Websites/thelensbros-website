@@ -16,7 +16,7 @@ const sections = [
   },
   {
     title: '3. Photo and Video Content',
-    content: `As a photography and video production company, we create visual content featuring our clients and their events. The use of this content is governed by the service agreement and model release forms signed at the time of booking.\n\nUnless otherwise agreed in writing, Lens Bros may use photographs and videos from client sessions for portfolio display, marketing materials, social media, and promotional purposes. Clients who wish to restrict the use of their images must submit a written request prior to their session.`,
+    content: `As a photography and video production company, we create visual content featuring our clients and their events. The use of this content is governed by the service agreement and model release forms signed at the time of booking.\n\nUnless otherwise agreed in writing, The Lens Bros may use photographs and videos from client sessions for portfolio display, marketing materials, social media, and promotional purposes. Clients who wish to restrict the use of their images must submit a written request prior to their session.`,
   },
   {
     title: '4. Data Security',
@@ -48,8 +48,8 @@ export default function Privacy() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Privacy Policy | Lens Bros"
-        description="Privacy policy for Lens Bros. Learn how we collect, use, and protect your personal information and photography content."
+        title="Privacy Policy | The Lens Bros"
+        description="Privacy policy for The Lens Bros. Learn how we collect, use, and protect your personal information and photography content."
         canonical="https://thelensbros.com/privacy"
       />
       <Navbar />
@@ -68,7 +68,7 @@ export default function Privacy() {
 
           <AnimatedSection>
             <p className="text-white/50 text-base leading-[1.85] mb-12">
-              At Lens Bros ("we," "us," or "our"), we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website (thelensbros.com) or use our photography and video production services.
+              At The Lens Bros ("we," "us," or "our"), we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website (thelensbros.com) or use our photography and video production services.
             </p>
           </AnimatedSection>
 
@@ -93,7 +93,7 @@ export default function Privacy() {
                 <a href="mailto:privacy@thelensbros.com" className="text-[oklch(0.65_0.2_250)] hover:underline">
                   privacy@thelensbros.com
                 </a>{' '}
-                or write to us at: Lens Bros, Chicago, IL.
+                or write to us at: The Lens Bros, Chicago, IL.
               </p>
             </div>
           </AnimatedSection>
